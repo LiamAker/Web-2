@@ -1,0 +1,45 @@
+body {
+    background-color: #130077;
+}
+
+h1,
+h2 {
+    color: #98daf5;
+    font-family: "Gill Sans";
+    font-size: 50px;
+    text-align: center;
+}
+
+p,
+ul {
+    color: white;
+    font-family: "Gill Sans";
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.directory {
+    font-size: 25px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: cyan;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #98daf5;
+    text-align: center;
+}
+
+.copyright {
+    color: #130077;
+}
