@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.hero-nav a {
+    color: #212f52;
+    text-decoration: none;
+    padding: 8px;
+    font-family: 'Montserrat'
+}
+
+.hero {
+    background-image: url(../images/banner-img.jpg);
+    color: #FFF;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat'
+}
+
+.hero a {
+    background-color: #212f52;
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.hero a:hover {
+    background-color: #FFF;
+    color: #212f52;
+    border-style: solid;
+    border-color: #212f52;
+}
+
+h2, h3 {
+    color: #212f52;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 36px 100px 24px 100px;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-family: 'Montserrat'
+}
+
+.welcome-nav a {
+    background-color: #212f52;
+    color: #FFF;
+    text-decoration: none;
+    margin: 16px;
+    padding: 8px;
+}
+
+.welcome-nav a:hover {
+    background-color: #FFF;
+    color: #212f52;
+    border-style: solid;
+    border-color: #212f52;
+}
+
+.callout {
+    margin: 16px 150px 16px 150px;
+    flex-wrap: wrap;
+    font-family: 'Montserrat'
+    
+}
+.callout-1, .callout-2 {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.image-style-01, .image-style-02 {
+    max-height: 320px;
+    max-width: 52%;
+    object-fit: cover;
+}
+
+.image-style-01 {
+    object-position: left center;
+}
+
+image-style-02 {
+    object-position: right center;
+}
+
+.aside-1, .aside-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.aside-1 {
+    text-align: right;
+    padding-left: 16px;
+}
+
+.aside-2 {
+    padding-right: 16px;
+}
+
+footer {
+    background-color: #f4f4f6;
+    display: flex;
+    padding: 15px 30px 15px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Montserrat'
+}
+
+.footer-left, .footer-right, .copyright {
+    display: flex;
+    font-size: x-small;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-logo, .payment {
+    width: 180px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    align-items: center;
+    padding-top: 16px;
+}
