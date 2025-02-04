@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Aoboshi One", serif;
+    font-size: 81.62px;
+}
+
+h2 {
+    font-family: "Aoboshi One", serif;
+    font-size: 39.74px;
+}
+
+h3 {
+    font-family: "Aoboshi One", serif;
+    font-size: 25.56px;
+}
+
+p {
+    font-family: "Inter";
+}
+
+/* Header */
+
+header {
+    display: flex;
+    padding: 30px 55px;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.left-items {
+    width: 100%;
+}
+
+.logo {
+    width: 166px;
+    height: 52.35px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url(../banners/hero-bg.jpg);
+    width: 100%;
+    height: 687px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: #FFF;
+    gap: 18.37px;
+    font-family: "Aoboshi One";
+}
+
+.button {
+    background-color: #FEC900;
+    padding: 10.25px 30.71px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+/* Body Section */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 110px 220px;
+    gap: 77px;
+}
+
+.arrival-nav {
+    display: flex; 
+    padding-bottom: 58px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.new-arrivals {
+    font-family: "Aoboshi One";
+    font-size: xx-large;
+}
+
+.view-all {
+    font-size: 33.05px;
+}
+
+.mens-arrivals {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrival-images {
+    display: flex;
+    gap: 28px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 16px;
+}
+
+.product {
+    width: 320px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.sale {
+    background-image: url(../banners/sale-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding: 119px 64px;
+    gap: 10px;
+}
+
+.sale-button {
+    padding: 6px 24px;
+    background-color: #000;
+    color: #FEC900;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 40px;
+}
+
+.shop {
+    font-family: "Aoboshi One";
+    color: #000;
+    font-size: 40px;
+}
+
+.shop-sub {
+    font-size: 36px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 199px;
+    color: #FFF;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    color: #FFF;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 79px;
+}
+
+.footer-right-bold {
+    font-weight: bold;
+    padding-bottom: 28px;
+}
+
+.list {
+    line-height: 36px;
+}
