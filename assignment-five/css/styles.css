@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p, a {
+    font-family: "Manrope", sans-serif;
+}
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 42px;
+}
+
+.hero-info {
+    font-size: 22px;
+    text-align: center;
+}
+
+.hero-button {
+    font-size: 18px;
+    color: #FFF;
+    padding: 16px 36px 16px 36px;
+    background-color: #000;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+/* About Section */
+
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfaf3;
+    width: 100%;
+    padding: 120px 16px 120px 16px;
+}
+
+.inner-container {
+    display: flex;
+    gap: 174px;
+    max-width: 1078px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.column-two {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.about-info {
+    font-size: 28px;
+}
+
+/* Services Section */
+
+.services {
+    display: flex;
+    width: 100%;
+    padding: 80px 16px 80px 16px;
+    justify-content: center;
+}
+
+.inner-container-services {
+    display: flex;
+    flex-direction: column;
+    max-width: 1340px;
+    gap: 56px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service-title {
+    font-size: 42px;
+}
+
+.service-row {
+    display: flex;
+    gap: 50px;
+}
+
+.info-title {
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.info-info {
+    font-size: 16px;
+}
+
+/* Testimonial Section */
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfaf3;
+    width: 100%;
+    padding: 120px 16px 120px 16px;
+}
+
+.inner-container-testimonial {
+    display: flex;
+    max-width: 1078px;
+    gap: 228px;
+}
+
+.column-one-testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 209px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.quote-jo {
+    font-size: 48px;
+    line-height: 110%;
+}
+
+.quote-name {
+    font-size: 22px;
+}
+
+.quote-location {
+    font-size: 12px;
+}
+
+/* Pricing Section */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 80px 16px 80px 16px;
+    gap: 76px;
+}
+
+.pricing-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pricing-title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.pricing-info {
+    font-size: 22px;
+    text-align: center;
+}
+
+.pricing-options {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid;
+    border-color: darkgray;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.option-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.option-title {
+    font-size: 28.8px;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.price-info {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.option-button {
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    padding: 16px 36px 16px 36px;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEE58;
+    width: 100%;
+    justify-content: center;
+    padding: 80px 16px 80px 16px;
+    gap: 40px;
+}
+
+.newsletter-title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.newsletter-info {
+    font-size: 28px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.email {
+    font-size: 18px;
+    color: darkgrey;
+    padding: 17px 25px 17px 25px;
+    background-color: #FFF;
+    border-radius: 50px;
+    width: 352px;
+}
+
+.subscribe-button {
+    font-size: 18px;
+    color: #FFF;
+    background-color: #000;
+    padding: 16px 36px 16px 36px;
+    border-radius: 50px;
+}
