@@ -56,7 +56,7 @@ header {
 
 .work-section {
     display: flex;
-    padding: 69px 196px;
+    padding: 50px 196px;
     background-color: #eaeaea;
 }
 
@@ -91,17 +91,17 @@ header {
     gap: 49px;
 }
 
-.item {
+.item, .item-2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.item img {
+.item img, .item-2 img {
     max-width: 311px;
 }
 
-.item p {
+.item p, .item-2 p {
     font-size: 16px;
 }
 
@@ -222,11 +222,39 @@ footer {
     /* Work Section */
     
     .work-section {
-        padding: 75px 53px;
+        padding: 50px 46px;
     }
     
     .work-inner-container {
-        padding: 0 174px;
+        padding: 0 15px;
+    }
+    
+    .item {
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;
+    }
+    
+    .item-2 {
+        flex-direction: row-reverse;
+        gap: 24px;
+        align-items: center;
+    }
+    
+    .item p, .item-2 p {
+        width: 300px;
+    }
+    
+    .item h2, .item-2 h2 {
+        font-size: 34px;
+    }
+    
+    .item img, .item-2 img {
+        width: 325px;
+    }
+    
+    .item-2 {
+        text-align: right;
     }
     
     .row-one, .row-two {
